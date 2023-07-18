@@ -1,0 +1,23 @@
+a.nav-link.text-dark:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+a.nav-link.text-light:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.form-check.form-switch {
+  position: relative;
+  left: 35rem;
+}
+@media (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .form-check.form-switch {
+    position: relative;
+    left: 12rem;
+  }
+}
